@@ -122,3 +122,23 @@ background-color: black;
     transform: translateX(1300px);
   }
 }
+
+/* end page  */
+.end-banner {
+background-image: url("https://art.pixilart.com/200a8a80fdadea3.png");
+background-color: black;
+ background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.content3 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 18px;
+}
+
+.content3 h1 {
+  color: white;
+}
