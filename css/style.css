@@ -44,6 +44,7 @@ button:hover {
 }
 /*spritesheet*/
 .back-img {
+background-color: black;
  background-image: url("https://i.pinimg.com/originals/9f/cd/d8/9fcdd8d04a99478e465ad22156cc3e84.jpg");
  background-repeat: no-repeat;
  width: 100%;
