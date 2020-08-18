@@ -5,6 +5,11 @@ body {
   margin-right: 0px;
   padding: 0;
 }
+
+body, html {
+  height: 100%;
+}
+
 /* home page */
 .home-banner {
   background-image: url("https://dinopixel.com/preload/0519/spiderman.png");
@@ -33,6 +38,7 @@ button {
   background-color: blue;
   border: none;
   text-shadow: 2px 2px 5px white;
+  cursor: pointer;
 }
 button:hover {
   padding: 14px 40px;
@@ -40,27 +46,54 @@ button:hover {
   background-size: cover;
   color: black;
   border: none;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxfcXILHbBaivS_9t8QaA8z7tRMrNsD8zLUQ&usqp=CAU")
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxfcXILHbBaivS_9t8QaA8z7tRMrNsD8zLUQ&usqp=CAU");
+  cursor: pointer;
 }
 /*spritesheet*/
 .back-img {
 background-color: black;
- background-image: url("https://i.pinimg.com/originals/9f/cd/d8/9fcdd8d04a99478e465ad22156cc3e84.jpg");
+ background-image: url("https://images.unsplash.com/photo-1503221043305-f7498f8b7888?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1470&q=80");
  background-repeat: no-repeat;
  width: 100%;
- height: 100vh;
- background-size: cover;
+ height: 100vh; 
+ background-size: cover; 
+ background-position: center; 
+ background-attachment: fixed ;
+ background-size:100% 100%; 
 /* animation: appear 15s infinite;*/
 }
 
-/*if u want to change the background image*/
-/*@keyframes appear {
-  0% {background-image: url("https://i.pinimg.com/originals/9f/cd/d8/9fcdd8d04a99478e465ad22156cc3e84.jpg");
-  }
-  100%{
-    background-image: url("https://cdn5.vectorstock.com/i/1000x1000/10/94/modern-night-city-landscape-background-vector-24261094.jpg");
-  }
-}*/
+.content2 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 18px;
+}
+
+.buttonsecond {
+  border: none;
+  color: white;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2{
+  color: white; 
+  font-size: 20px;
+  background-color: none !important; 
+  border: 2px solid #f44336;
+}
+
+.button2:hover {
+  background-color: #f44336;
+
+}
 
 #runner {
   background: url("http://pixelartmaker.com/art/687d3898039afaf.png");
