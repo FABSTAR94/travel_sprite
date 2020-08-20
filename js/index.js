@@ -16,7 +16,7 @@ let targetIndex = 0;
 
 setInterval(() => {
     document.getElementsByClassName("back-img")[0].style.backgroundImage = imageGallery[targetIndex];
-    
+
     if (targetIndex === 9) {
         targetIndex = 0;
     } else {
