@@ -28,8 +28,7 @@ body {
   color: white;
   
 }
-/* png/web.png
-css/style.css */
+
 button {
   padding: 14px 40px;
   margin-top: 30px;
@@ -37,7 +36,6 @@ button {
   color: white;
   background-color: blue;
   border: none;
-  text-shadow: 2px 2px 5px white;
   cursor: url('../png/web2.png'), auto !important;
   font-family: 'Bangers', cursive;
 }
@@ -93,8 +91,8 @@ button:hover {
 }
 
 .button2:hover {
-  background-color: #f44336;
-
+  background-color: blue;
+  border: 2px solid blue;
 }
 
 #runner {
