@@ -145,6 +145,83 @@ background-color: slategray;
   color: white;
 }
 
+.circular-sbl {
+  width: 350px;
+  border: 5px solid black;
+  padding: 70px 20px;
+  margin: 35px auto;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: arial;
+  position: absolute;
+  top: -76px;
+  right: 826px;
+  color: black;
+  font-family: 'Bangers', cursive;
+  background-color: white;
+}
+
+.circle1l {
+  border: 5px solid black;
+  position: absolute;
+  width: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  right: 170px;
+  bottom: -25px;
+}
+
+.circle1l:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  right: 0px;
+  bottom: 0px;
+  background: #fff;
+}
+
+.circle2l {
+  border: 5px solid black;
+  position: absolute;
+  width: 5px;
+  padding: 13px 21px;
+  border-radius: 50%;
+  right: 163px;
+  bottom: -59px;
+  background-color: white;
+}
+
+.circle3l {
+  border: 5px solid black;
+  position: absolute;
+  width: 5px;
+  padding: 10px 18px;
+  border-radius: 50%;
+  right: 152px;
+  bottom: -87px;
+  background-color: white;
+}
+
+.circle4l {
+  border: 5px solid black;
+  position: absolute;
+  width: 5px;
+  padding: 7px 13px;
+  border-radius: 50%;
+  right: 143px;
+  bottom: -109px;
+  background-color: white;
+}
+
+
+
+
+
+
 /* speech bubble */
 .circular-sb {
   width: 500px;
