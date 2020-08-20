@@ -12,7 +12,7 @@ body {
 .home-banner {
     background-image: url("https://dinopixel.com/preload/0519/spiderman.png");
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: slategray;
 }
@@ -148,7 +148,7 @@ button:hover {
     background-color: black;
     background-image: url("https://i.pinimg.com/originals/05/5c/29/055c29606e725adcaaabd0fec620a9de.jpg");
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -194,7 +194,7 @@ button:hover {
 #runner {
     background: url("http://pixelartmaker.com/art/687d3898039afaf.png");
     position: relative;
-    top: 430px;
+    top: 62vh;
     width: 232px;
     height: 250px;
     animation: run 0.5s steps(4) infinite,
@@ -213,11 +213,11 @@ button:hover {
 
 @keyframes forward {
     0% {
-        transform: translateX(-75px);
+        transform: translateX(0vw);
     }
 
     100% {
-        transform: translateX(1300px);
+        transform: translateX(100vw);
     }
 }
 
@@ -226,7 +226,7 @@ button:hover {
     background-image: url("https://art.pixilart.com/200a8a80fdadea3.png");
     background-color: slategray;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 
