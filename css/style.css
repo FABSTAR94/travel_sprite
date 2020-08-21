@@ -10,12 +10,19 @@ body {
 
 /* home page */
 .home-banner {
-    background-image: url("../png/random.png");
-    /* https://dinopixel.com/preload/0519/spiderman.png */
-    background-repeat: no-repeat;
+    /* background-image: url("../png/spiderman.png");
+    background-repeat: no-repeat; */
     width: 100vw;
     height: 100vh;
     background-color: slategray;
+}
+
+.hb-image {
+    background-image: url("../png/spiderman.png");
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 100vh;
+    margin-left: 10vw;
 }
 
 .content {
@@ -195,7 +202,7 @@ button:hover {
 #runner {
     background: url("http://pixelartmaker.com/art/687d3898039afaf.png");
     position: relative;
-    top: 62vh;
+    top: 60vh;
     width: 232px;
     height: 250px;
     animation: run 0.5s steps(4) infinite,
@@ -224,11 +231,21 @@ button:hover {
 
 /* end page  */
 .end-banner {
-    background-image: url("https://art.pixilart.com/200a8a80fdadea3.png");
     background-color: slategray;
-    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
+    position: absolute;
+}
+
+.eb {
+    background-image: url("../png/websm.png");
+    background-repeat: no-repeat;
+    height: 35vh;
+    width: 80vw;
+    margin-top: 65vh;
+    margin-right: 20vw;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 .content3 {
@@ -253,8 +270,8 @@ button:hover {
     font-weight: 900;
     font-family: arial;
     position: absolute;
-    top: -76px;
-    right: 826px;
+    top: -40px;
+    right: 530px;
     color: black;
     font-family: 'Bangers', cursive;
     background-color: white;
@@ -266,7 +283,7 @@ button:hover {
     width: 25px;
     padding: 20px;
     border-radius: 50%;
-    right: 170px;
+    right: 60px;
     bottom: -25px;
 }
 
@@ -287,7 +304,7 @@ button:hover {
     width: 5px;
     padding: 13px 21px;
     border-radius: 50%;
-    right: 163px;
+    right: 40px;
     bottom: -59px;
     background-color: white;
 }
@@ -298,8 +315,8 @@ button:hover {
     width: 5px;
     padding: 10px 18px;
     border-radius: 50%;
-    right: 152px;
-    bottom: -87px;
+    right: 14px;
+    bottom: -90px;
     background-color: white;
 }
 
@@ -309,7 +326,7 @@ button:hover {
     width: 5px;
     padding: 7px 13px;
     border-radius: 50%;
-    right: 143px;
-    bottom: -109px;
+    right: -5px;
+    bottom: -115px;
     background-color: white;
 }
