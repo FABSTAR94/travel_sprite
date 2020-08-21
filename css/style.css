@@ -10,7 +10,8 @@ body {
 
 /* home page */
 .home-banner {
-    background-image: url("https://dinopixel.com/preload/0519/spiderman.png");
+    background-image: url("../png/random.png");
+    /* https://dinopixel.com/preload/0519/spiderman.png */
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
