@@ -66,8 +66,8 @@ button:hover {
     margin: -150px auto;
     border-radius: 50%;
     text-align: center;
-    font-size: 24px;
-    font-weight: 900;
+    font-size: 23px;
+    font-weight: 700;
     font-family: arial;
     position: relative;
     color: black;
@@ -266,8 +266,8 @@ button:hover {
     margin: 35px auto;
     border-radius: 50%;
     text-align: center;
-    font-size: 24px;
-    font-weight: 900;
+    font-size: 23px;
+    font-weight: 700;
     font-family: arial;
     position: absolute;
     top: -40px;
@@ -304,8 +304,8 @@ button:hover {
     width: 5px;
     padding: 13px 21px;
     border-radius: 50%;
-    right: 40px;
-    bottom: -59px;
+    right: 33px;
+    bottom: -53px;
     background-color: white;
 }
 
@@ -315,8 +315,8 @@ button:hover {
     width: 5px;
     padding: 10px 18px;
     border-radius: 50%;
-    right: 14px;
-    bottom: -90px;
+    right: 4px;
+    bottom: -76px;
     background-color: white;
 }
 
@@ -326,7 +326,7 @@ button:hover {
     width: 5px;
     padding: 7px 13px;
     border-radius: 50%;
-    right: -5px;
-    bottom: -115px;
+    right: -19px;
+    bottom: -94px;
     background-color: white;
 }
