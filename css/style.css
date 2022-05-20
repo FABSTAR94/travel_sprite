@@ -200,7 +200,7 @@ button:hover {
 
 /*Journey spritesheet*/
 #runner {
-    background: url("http://pixelartmaker.com/art/687d3898039afaf.png");
+    background: url("../png/spider_sprint.png");
     position: relative;
     top: 60vh;
     width: 232px;
